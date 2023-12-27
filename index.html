@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <link rel="stylesheet" href="src/style.css" />
         <title>Vegetarian Recipe Generator</title>
     </head>
@@ -14,14 +15,12 @@
                 <h1>AI Vegetarian Recipe Generator</h1>
             </header>
             <main>
-                <form>
+                <form id="recipe-generator-form">
                     <input type="text" placeholder="Enter the vegetable(s) you would like to feature" autofocus required
                         autocomplete="off" class="instructions" />
                     <input type="submit" class="submit-button" />
                 </form>
-                <div class="recipe">The recipe will go here
-                    <br />
-                    The recipe will go here
+                <div class="recipe" id="recipe">
                 </div>
             </main>
             <footer>This was coded by <a href="https://github.com/nhemmer730" target="_blank"> Nicole Hemmer</a> and is
