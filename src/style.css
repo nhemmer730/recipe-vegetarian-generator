@@ -1,47 +1,68 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "wordy-diva", sans-serif;
   background-image: url("veg-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 15px 0;
 }
+
+a {
+  font-weight: 400;
+  color: rgb(45, 20, 65);
+  margin-top: 30px;
+}
+
 .container {
   margin: 120px auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 header {
-  margin-bottom: 30px;
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 1.5;
+  color: #eb841e;
   text-align: center;
 }
 
 footer {
+  font-family: "sketchnote-square", sans-serif;
   margin: 30px;
-  font-size: 12px;
-  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #0f170c;
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 
-main {
-  margin-bottom: 25px;
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }
 
 form {
-  padding: 30px;
-  border-radius: 10px;
   display: flex;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.hint {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #312902;
+  font-weight: 800;
+  margin-left: 25px;
 }
 
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
-  border-radius: 50px;
+  border-radius: 20px;
   line-height: 15px;
   font-size: 16px;
   width: 75%;
@@ -50,16 +71,17 @@ form {
 .submit-button {
   margin: 10px;
   color: white;
-  background-color: rgb(8, 43, 8);
+  background-color: rgb(10, 33, 10);
   border: none;
   font-size: 16px;
   width: 100px;
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 15px 25px;
 }
 
 .recipe {
+  margin: 30px 0;
   font-size: 16px;
   padding: 20px 40px;
-  line-height: 1.5;
+  line-height: 2.5;
 }

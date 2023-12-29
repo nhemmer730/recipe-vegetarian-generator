@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/dbv5eym.css">
         <link rel="stylesheet" href="src/style.css" />
         <title>Vegetarian Recipe Generator</title>
     </head>
@@ -13,14 +14,17 @@
     <body>
         <div class="container">
             <header>
-                <h1>AI Vegetarian Recipe Generator</h1>
+                <h1>Vegetarian Recipe Generator</h1>
             </header>
             <main>
-                <form id="recipe-generator-form">
-                    <input type="text" placeholder="Enter the vegetable(s) you would like to feature" autofocus required
-                        autocomplete="off" class="instructions" id="user-instructions" />
-                    <input type="submit" class="submit-button" />
-                </form>
+                <div class="form-container">
+                    <form id="recipe-generator-form">
+                        <input type="text" placeholder="Enter the vegetable(s) you would like to feature" autofocus
+                            required autocomplete="off" class="instructions" id="user-instructions" />
+                        <input type="submit" class="submit-button" />
+                    </form>
+                </div>
+                <div class="hint">i.e: carrots and brussel sprouts</div>
                 <div class="recipe" id="recipe">
                 </div>
             </main>
