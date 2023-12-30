@@ -3,13 +3,12 @@ body {
   background-image: url("veg-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 a {
   font-weight: 400;
-  color: rgb(45, 20, 65);
-  margin-top: 30px;
+  color: rgb(219, 180, 6);
 }
 
 .container {
@@ -71,12 +70,12 @@ form {
 .submit-button {
   margin: 10px;
   color: white;
-  background-color: rgb(10, 33, 10);
+  background-color: rgb(65, 142, 65);
   border: none;
   font-size: 16px;
   width: 100px;
   border-radius: 10px;
-  padding: 15px 25px;
+  padding: 20px 30px;
 }
 
 .recipe {
